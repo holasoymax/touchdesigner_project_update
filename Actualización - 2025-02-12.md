@@ -117,11 +117,3 @@ El output final de este módulo se manda a la respectiva Window (En el window ou
 ![](assets/2025-02-12-12-13-12-image.png)
 
 Módulo encargado de gestionar las Windows general y el mini viewer usado en desarrollo.
-
-**Estoy trabajando en:**
-
-- Ultraleap conectado, aún no me devuelve los gestos, más que los puntos de las manos, estoy planeo trabajar directamente al API mediante lenguaje C y saber si puede devolverme los gestos reconocidos.
-
-- Readaptación de las escenas ya generadas a Ultraleap
-
-- Adaptación del nuevo módulo **Event Handler**
