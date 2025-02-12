@@ -1,6 +1,20 @@
 ## Desarrollo de software interactivo
 
-`Fecha: 2025-02-12 01:26PM`
+```
+Actualizado el: 2025-02-12 02:55PM
+```
+
+## Trabajando en...
+
+- Adaptar Leap Motion Controller 2 a las [Escenas.]([touchdesigner_project_update/escenas_-_2025-02-12_0235pm.md at 42d825b70c3f1d1090cf655591c689c307f10a39 · holasoymax/touchdesigner_project_update · GitHub](https://github.com/holasoymax/touchdesigner_project_update/blob/42d825b70c3f1d1090cf655591c689c307f10a39/escenas_-_2025-02-12_0235pm.md))
+
+- Cerrar un proyecto para montar en el Showroom
+
+- Indagar la información que podría obtenerse el API de [Ultraleap ]([touchdesigner_project_update/Ultraleap - 20250212124551.md at 42d825b70c3f1d1090cf655591c689c307f10a39 · holasoymax/touchdesigner_project_update · GitHub](https://github.com/holasoymax/touchdesigner_project_update/blob/42d825b70c3f1d1090cf655591c689c307f10a39/Ultraleap%20-%2020250212124551.md))para el Leap Motion Controller 2
+
+- Aplicar funciones del nuevo módulo **Event Handler** para mejorar consistencia y estructura del software interactivo
+
+## Desarrollo
 
 ![](assets/2025-02-12-12-19-52-image.png)
 
