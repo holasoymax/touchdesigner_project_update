@@ -1,10 +1,12 @@
 ## Desarrollo de software interactivo
 
+`Fecha: 2025-02-12 01:26PM`
+
 ![](assets/2025-02-12-12-19-52-image.png)
 
 *Vista general del proyecto (Febrero 2025)*
 
-    Me he enfocado en el desarrollo continuo de un sistema más confiable y estructurado. 
+Me he enfocado en el desarrollo continuo de un sistema más confiable y estructurado. 
 
 Ante el desconocimiento de mejores prácticas para desarrollar con TouchDesigner comencé el proyecto proyecto con escenas monolíticas que **requerían en algún punto, alguna incidencia del desarrollador para adaptarla.** Precisamente yo planteo que es este es el principal problema a solucionar.
 
@@ -14,13 +16,13 @@ Ante el desconocimiento de mejores prácticas para desarrollar con TouchDesigner
 
 Poco a poco se han ido desarrollando tanto escenas como mejores prácticas de desarrollo de software que permiten tener un mayor control y efectividad al momento de desarrollar nuevas escenas al sistema para implementarse localmente y (a plazo) reproducirlo a mayor escala.
 
-Este desarrollo con el tiempo a suponido la reestructuración y generación de módulos principales con las siguientes funciones:
+Este desarrollo con el tiempo ha suponido la reestructuración y generación de módulos principales con las siguientes funciones:
 
 ### **Settings**
 
 ![](assets/2025-02-12-11-55-48-image.png)
 
-Un módulo de ajustes que permite el setupeo de los settings al momento de cargar el proyecto, e inclusive, en vivo. Permite seleccionar el monitor , resolución mediante la sola modificación de un json exterior que podría llegar a ser modificable de manera remota.
+Un módulo de ajustes que permite el setupeo de los settings al momento de cargar el proyecto, e inclusive, en vivo. Permite seleccionar el monitor , resolución mediante la sola modificación de un **JSON** exterior que podría llegar a ser modificable de manera remota.
 
 ![](assets/2025-02-12-11-20-50-image.png)
 
@@ -33,8 +35,6 @@ Una máquina de estados que permite determinar las escenas y separa cada momento
 ![](assets/2025-02-12-11-26-37-image.png)
 
 *Tools para trabajar con la máquina de estados*
-
-
 
 ### **Tracking**
 
@@ -82,7 +82,7 @@ Cada escena se produce como un módulo externo `.tox` que se puede cargar dinám
 
 - **Guide.** Apartado para la lógica y elementos gráficos de interfaz para mostrar un display de instrucciones y apoyo al usuario, dependiendo de los Eventos del usuario y guiarlo a través de las experiencias.
 
-- **Output.** 
+- **Output.**
   
   - Módulo encargado de la lógica de la composición en capas de la guía visual, como de la experiencia. 
   
@@ -110,7 +110,7 @@ Módulo encargado de recibir y apilar en el árbol de outputs las diversas fuent
 
 - Escenas
 
-El output final de este módulo se manda a la respectiva Window.
+El output final de este módulo se manda a la respectiva Window (En el window outputs).
 
 ### Window Outputs
 
